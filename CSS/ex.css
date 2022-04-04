@@ -46,3 +46,6 @@ article[class^=ex]{
         0 0 200px #ffdb0e;
     font-weight: bold;
 }
+footer{
+    height: 80px;
+}
