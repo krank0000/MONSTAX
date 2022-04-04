@@ -27,11 +27,22 @@ article[class^=ex]{
 .con{
     position: relative;
     top: -140px;left: 220px;
-    height: 120px;width: 640px;
+    height: 120px;width: 650px;
     overflow: hidden;
 }
 .con p{
     position: relative;
     top: 20%;
     font-size: 20px;
+}
+#win{
+    position: relative;
+    top: 6px;
+    text-shadow: 
+        0 0 10px #ffdb0e,
+        0 0 20px #ffdb0e,
+        0 0 50px #ffdb0e,
+        0 0 100px #ffdb0e,
+        0 0 200px #ffdb0e;
+    font-weight: bold;
 }
