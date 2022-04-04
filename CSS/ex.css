@@ -1,0 +1,37 @@
+article[class^=ex]{
+    /*border: white 3px solid;*/
+    border-radius: 10px;
+    height: 150px;width: 80%;
+    position: relative;
+    top: 30px;left: 200px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.day{
+    height: 140px;width: 190px;
+    margin: 5px ;padding: 15px 24px 24px 44px;
+    align-items: center;
+    font-size: 350%;
+    font-family: fantasy;
+    border-right: solid white 4px;
+    letter-spacing: 1.8px;
+}
+.daz{
+    height: 50px;
+    position: relative;
+    top: -20px;left: -24px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.con{
+    position: relative;
+    top: -140px;left: 220px;
+    height: 120px;width: 640px;
+    overflow: hidden;
+}
+.con p{
+    position: relative;
+    top: 20%;
+    font-size: 20px;
+}

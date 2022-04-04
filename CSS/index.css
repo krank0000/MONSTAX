@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+header{
+    height: 85px;
+    padding: 8px;
+    position: fixed;
+    display: flex;
+    z-index: 99;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.SearchBar{
+    color: white;
+    height: 70px;width: 600px;
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+}
+.SearchBar h1{
+    position: relative;
+    left: 20px; top: 10px;
+    width: 100px;
+    color: white;
+    font-size: 35px;
+    font-family: NSimSun;
+}
+section{
+    height: 280px;
+    display: flex;
+    position: relative;
+    top: 230px;left: 30px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+.main{
+    position: relative;
+    top: -624.43px;
+}
+article img{
+    position: relative;
+    top: 20px;
+    width: 80%;
+    
+}
+@keyframes move{
+    50%{top: -100px; }
+    100%{top: -200px;}
+}
+article .main:hover {
+    animation: move 5s ;
+}
+footer{
+    z-index: 5;
+    height: 300px;
+    position: relative;
+    top: 400px;
+    padding: 90px 100px 100px 150px;
+    background-color: black;
+}
+.msg img{
+    padding-left: 50px;
+    width: 180px;
+    filter: drop-shadow(10px 10px 7px rgba(194, 194, 194, 0.753));
+}
+.msg img:hover{
+    animation: flash  0.5s linear infinite alternate;;
+}
+
+
