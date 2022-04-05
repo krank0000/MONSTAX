@@ -8,7 +8,7 @@
 }
 #bg_t2 {
     color: rgb(78, 78, 78);
-    animation: move2 15s linear infinite,flash 2s infinite;
+    animation: move2 15s linear infinite,flash 1s linear infinite;
 }
 .bg {
     padding: 10px;

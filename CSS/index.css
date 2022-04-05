@@ -41,6 +41,8 @@ footer{
     filter: drop-shadow(10px 10px 7px rgba(194, 194, 194, 0.753));
 }
 .msg img:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.3s ease-out;
     animation: flash  0.5s linear infinite alternate;;
 }
 

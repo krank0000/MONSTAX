@@ -9,7 +9,7 @@ article[class^=ex]{
 }
 .day{
     height: 140px;width: 190px;
-    margin: 5px ;padding: 15px 24px 24px 44px;
+    margin: 5px ;padding: 10px 24px 24px 44px;
     align-items: center;
     font-size: 350%;
     font-family: fantasy;

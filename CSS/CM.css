@@ -65,28 +65,5 @@ audio:hover{
     opacity: 0.7;
 }*/
 
-.mb{
-    margin: 50px;
-    position: fixed;
-    top: 30%; 
-    width: 1500px;
-    font-size: 200px;
-    display: flex;
-    font-weight: bolder;
-}
-#right{
-    position: absolute;
-    left: 90%;
-}
-a p{
-    color: white;
-    text-decoration: none;
-    opacity: 0.5;
-}
-a p:hover{
-    opacity: 1;
-    text-shadow: 0 0 50px white;
-    transform: scale(1.1,1.1);
-    transition: all 1s ease-out;
-}
+
 
