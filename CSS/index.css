@@ -33,16 +33,20 @@ footer{
     position: relative;
     top: 400px;
     padding: 90px 100px 100px 150px;
-    background-color: black;
+    display: flex;
+}
+.msg{
+    align-items: center;
+    padding-left: 6%;
 }
 .msg img{
     padding-left: 50px;
-    width: 180px;
-    filter: drop-shadow(10px 10px 7px rgba(194, 194, 194, 0.753));
+    width: 150px;
 }
 .msg img:hover{
-    transform: scale(1.1,1.1);
+    transform: scale(1.2,1.2);
     transition: all 0.3s ease-out;
-    animation: flash  0.5s linear infinite alternate;;
+    animation: flash  0.5s linear infinite alternate;
+    filter: drop-shadow(10px 10px 7px white);
 }
 

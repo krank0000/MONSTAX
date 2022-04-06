@@ -2,14 +2,14 @@
     margin: 50px;
     position: fixed;
     top: 25%; 
-    width: 1500px;
+    width: 90%;
     font-size: 200px;
     display: flex;
     font-weight: bolder;
 }
 #right{
     position: absolute;
-    left: 90%;
+    left: 96%;
 }
 a p{
     color: white;
