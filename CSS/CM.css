@@ -1,6 +1,9 @@
 html{
     scroll-behavior: smooth;
 }
+*{
+    color: white;
+}
 body{
     background-color: black;
     font-family: NSimSun;
@@ -43,6 +46,12 @@ a img{
 .SearchBar h1:hover{
     transform: scale(1.1,1.1);
     transition: all 1s ease-out;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 50px #ffffff,
+        0 0 100px #ffffff,
+        0 0 200px #ffffff;
 }
 header img:hover{
     transform: scale(1.1,1.1);

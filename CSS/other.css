@@ -1,0 +1,33 @@
+section{
+    height: 520px;
+    position: relative;
+    top: 150px;
+}
+iframe{
+    position: relative;
+    top: 70px;left: 45%;
+    width: 650px;
+    height: 366px;
+}
+.text{
+    height: 366px;width: 470px;
+    position: relative;
+    top: -302px;left: 100px;
+    padding: 80px 50px 100px 50px;
+    border-top: solid 10px white;
+    border-bottom: solid 10px white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, fantasy;
+    letter-spacing: 5px;
+}
+.text p:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.5s ease-out;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 50px #ffffff,
+        0 0 100px #ffffff;
+    color: black;
+}
