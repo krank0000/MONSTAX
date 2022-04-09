@@ -22,3 +22,23 @@ a p:hover{
     transform: scale(1.1,1.1);
     transition: all 1s ease-out;
 }
+article {
+    position: relative;
+    top: 60px;left: 13%;
+    width: 1200px;
+}
+.name{
+    position: absolute;
+    top: 500px;left: 250px;
+    width: 600px;
+}
+.name h1{
+    font-size: 120px;
+    font-family: Impact, fantasy;
+    letter-spacing: 5px;
+    animation: name 1s ;
+}
+@keyframes name{
+    0%{left: -100px;}
+    100%{left: 200px;}
+}
