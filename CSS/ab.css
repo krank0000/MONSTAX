@@ -1,0 +1,68 @@
+section{
+    position: relative;
+    top: 150px; left: 15%;
+    height: auto;width: 70%;
+}
+article{
+    border-bottom: 5px solid white;
+    height: 500px; 
+    padding-bottom: 100px;
+    padding-top: 90px;
+}
+article img{
+    width: 35%;
+    z-index: 99;
+}
+
+article .text{
+    position: relative;
+    top: -290px;
+    height: 250px;width: 570px;
+    margin-left: 350px;
+    text-align: center;
+}
+.text{
+    font-family: Impact, fantasy;
+    letter-spacing: 5px;
+}
+h4{
+    padding-bottom: 10px;
+    border-bottom: white 5px solid;
+    color: rgb(138, 138, 138);
+}
+p{
+    text-align: left;
+    padding: 10px 20px 20px 40px;
+    font-size: 25px;
+}
+.ptr{
+    position: relative;
+    left: 250px;top: -195px;
+}
+
+img:hover{
+    transform: scale(1.1,1.1);
+    transition: all 1s ease-out;
+}
+footer{
+    position: relative;
+    top: 300px;
+    height: 80px;
+}
+.text h1:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.5s ease-out;
+    text-shadow: 
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 50px #ffffff,
+        0 0 100px #ffffff;
+    color: black;
+}
+.text h1{
+    font-size: 45px;
+}
+#Beautiful{
+    position: relative;
+    top: -235px;left: 300px;
+}
